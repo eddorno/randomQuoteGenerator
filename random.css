@@ -1,0 +1,50 @@
+.title {
+  color: grey;
+  font-family: century;
+  margin: 20px;
+}
+.col-8 {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 7% 100% 15%;
+  margin: 50px;
+  height: 300px;
+  width: 1000px;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+.tweet {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+}
+
+.tweet:active {
+  box-shadow: 2px 2px #665;
+  transform: translateY(4px);
+}
+
+.quote-button {
+  float: right;
+  height: 100%;
+  width: 50%;
+}
+
+.quote-button:active {
+  box-shadow: 2px 2px #665;
+  transform: translateY(4px);
+}
+
+body {
+  background-image: url("marble-2371776_1920.jpg");
+/*  overflow: hidden;*/
+}
+
+.white {
+  background-color: GhostWhite;
+}
+
+.message {
+  color: dimgray;
+  font-family: courier new;
+}
